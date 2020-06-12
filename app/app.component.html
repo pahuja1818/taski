@@ -1,0 +1,76 @@
+<nav class="navbar navbar-light bg-light">
+
+</nav>
+<div class="container">
+
+
+	<button [ngStyle]="{backgroundColor: h1color}" (click)="btn()" type="button" class="btn1">1</button>
+	<hr class="line">
+	<button [ngStyle]="{backgroundColor: h2color}" (click)="btnq()" type="button" class="btn2">2</button>
+
+
+
+	<div class="conta" *ngIf="check1">
+		<br>
+		<h3>Basic Details :</h3>
+		<br>
+		<div>
+			<input type="text" class="inp" placeholder="Name">
+    </div>
+			<br>
+			<div>
+				<input type="email" class="inp" placeholder="E-mail">
+    </div>
+				<br>
+
+				<div>
+					<input type="text" class="inp" placeholder="Hobbies">
+    </div>
+					<br>
+					<div>
+						<input type="text" class="inp" placeholder="Address">
+    </div>
+						<br>
+
+						<div>
+							<button (click)="btnq()" type="button" class="btn btn-primary btnn">NEXT</button>
+							<button type="button" class="btn btn-secondary btnn">CANCEL</button>
+						</div>
+
+
+
+					</div>
+
+
+					<div class="conta" *ngIf="check2">
+						<h3>Choose your Preferences :</h3>
+						<BR>
+						<div class="row mb-2">
+							<div class="col-md-6">
+								<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+									[ngStyle]="{backgroundColor: b1color}" (click)="trophy()">
+									<div class="col p-4 d-flex flex-column position-static">
+										<span class="material-icons trophy">emoji_events</span>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+									[ngStyle]="{backgroundColor: b2color}" (click)="prof()">
+									<div class="col p-4 d-flex flex-column position-static">
+										<span class="material-icons">
+              person
+            </span>
+
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+						<button type="button" class="btn btn-primary bttn">PROCEED</button>
+						<button type="button" class="btn btn-secondary bttn" style="margin-left: 3rem ;">CANCEL</button>
+
+					</div>
+				</div>

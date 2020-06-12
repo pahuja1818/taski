@@ -1,0 +1,92 @@
+.navbar{
+    background-color: #212b2e !important;
+    margin: 3px!important;   
+    border-radius: 3px !important;
+    height: 7%;
+}
+.conta{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+.btn1{
+    
+    width:  100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: larger;
+    border: 0cm solid;
+    color: #ffffff;
+    background-color: #a74ef0;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    }
+    .line{
+       margin-top: 50px;
+       margin-left: 10px;
+       margin-right: 10px;
+        width: 90%;
+        border: 1px solid;
+        display: inline-block;
+        
+        
+    
+    }
+   
+.btn2{
+       
+     width:  100px;
+      height: 100px;
+        font-size: larger;
+        border-radius: 50px;
+        border: 0cm;
+        color: #ffffff;
+        background-color: #b9b7bb;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        
+        
+        }
+.container{
+    margin-top: 2rem;
+    height: fit-content;
+    
+    width: fit-content;
+    margin-left: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+.inp{
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: small;
+    width:25rem;
+}
+.btnn{
+    height: 2rem ;
+    width: 10rem;
+    font-size: small;
+    margin-left: 20px;
+}
+.bttn{
+    height: 2rem ;
+    width:10rem;
+    font-size: small;
+    margin-left: 20px;
+    
+}
+.trophy{
+    color: #eee01e;
+    
+   
+}
+.material-icons{
+    font-size: 5rem;
+    margin: auto;
+
+}
